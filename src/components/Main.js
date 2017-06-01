@@ -147,7 +147,7 @@ var GalleryByReactApp = React.createClass({
       left: halfStageW - halfImgW,
       top: halfStageH - halfImgH
     };
-
+    //计算图片位置的范围
     this.Constant.hPosRange.leftSecX[0] = -halfImgW;
     this.Constant.hPosRange.leftSecX[1] = halfStageW - halfImgW*3;
     this.Constant.hPosRange.rightSecX[0] = halfStageW + halfImgW;
